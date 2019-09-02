@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1567294511154.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "A4BF3F04",
+    "lastKnownWriteTime" : 7163369285319354739,
+    "last_content_update" : 1567294511154,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "10AC14CB",
+        "caption" : "Aleks_CST_bil_spcs_n12_GRM",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=Aleks_CST_bil_spcs_n12_GRM&cache_key=10AC14CB",
+        "displayedObservations" : 1212,
+        "environment" : "",
+        "object" : "Aleks_CST_bil_spcs_n12_GRM",
+        "preview" : 0,
+        "totalObservations" : 1212,
+        "variables" : 43
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
