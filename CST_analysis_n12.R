@@ -59,6 +59,16 @@ ggplot(Aleks_CST_bil_allLang_n12_GRM_Dom_exp_sc_domcat_sum, aes(lang, MeanFFD, f
   geom_bar(stat = "identity", position = "dodge") +
   geom_errorbar(aes(ymin=ifelse((MeanFFD - seFFD)<0, 0, MeanFFD - seFFD), ymax = MeanFFD + seFFD), width = 0.25, position = position_dodge(0.9)) + xlab("Language") + ylab("Mean 1st Fixation Duration") + facet_wrap(~dom_cat) + scale_fill_manual(values=c("#FFC300", "#900C3F"))
 
+
+ggplot(Aleks_CST_bil_allLang_n12_GRM_Dom_exp_sc_domcat_sum, aes(lang, GAZE_DURATION, fill = taboo_status)) +
+  geom_violin(na.rm = TRUE, alpha=1/2, aes(fill = taboo_status), draw_quantiles = c(0.25, 0.5, 0.75)) +
+  facet_wrap(~dom_cat) + stat_summary(fun.y=mean, geom="point", shape=23, size=2)
+
+ggplot(Aleks_CST_bil_allLang_n12_GRM_Dom_exp_sc_domcat_sum, aes(lang, TOTAL_DURATION, fill = taboo_status)) +
+  geom_violin(na.rm = TRUE, alpha=1/2, aes(fill = taboo_status), draw_quantiles = c(0.25, 0.5, 0.75)) +
+  facet_wrap(~dom_cat) + stat_summary(fun.y=mean, geom="point", shape=23, size=2)
+
+
 Aleks_CST_bil_allLang_n12_GRM_Dom_exp_sc_domcat_sum <- merge(Aleks_CST_bil_allLang_n12_GRM_Dom_exp_sc_domcat_sum, Part_overview_CST_n12)
 
 model_bil_GD <- lmer(FIRST_FIXATION_DURATION_SC ~ lang * taboo_status * cs_use_exp +(1|RECORDING_SESSION_LABEL), Aleks_CST_bil_allLang_n12_GRM_Dom_exp_sc_domcat_sum)
