@@ -53,7 +53,7 @@ ggplot(Aleks_CST_bil_allLang_n12_GRM_Dom_exp_sc_domcat_sum, aes(lang, MeanTD, fi
   geom_bar(stat = "identity", position = "dodge") +
   geom_errorbar(aes(ymin=ifelse((MeanTD - seTD)<0, 0, MeanTD - seTD), ymax = MeanTD + seTD), width = 0.25, position = position_dodge(0.9)) + xlab("Language") + ylab("Mean Total Duration") + facet_wrap(~dom_cat) + scale_fill_manual(values=c("#33C4FF", "#581845"))
 
-theme_update(text = element_text(size=20))
+theme_update(text = element_text(size=15))
 
 ggplot(Aleks_CST_bil_allLang_n12_GRM_Dom_exp_sc_domcat_sum, aes(lang, MeanFFD, fill = taboo_status)) +
   geom_bar(stat = "identity", position = "dodge") +
@@ -61,12 +61,13 @@ ggplot(Aleks_CST_bil_allLang_n12_GRM_Dom_exp_sc_domcat_sum, aes(lang, MeanFFD, f
 
 
 ggplot(Aleks_CST_bil_allLang_n12_GRM_Dom_exp_sc_domcat_sum, aes(lang, GAZE_DURATION, fill = taboo_status)) +
-  geom_violin(na.rm = TRUE, alpha=1/2, aes(fill = taboo_status), draw_quantiles = c(0.25, 0.5, 0.75)) +
-  facet_wrap(~dom_cat) + stat_summary(fun.y=mean, geom="point", shape=23, size=2)
+  geom_violin(na.rm = TRUE, alpha=3/4, aes(fill = taboo_status), draw_quantiles = c(0.25, 0.5, 0.75)) +
+  facet_wrap(~dom_cat) + stat_summary(fun.y=mean, geom="point", shape=23, size=3) + scale_fill_manual(values=c("#FFC300", "#FF5733"))
+
 
 ggplot(Aleks_CST_bil_allLang_n12_GRM_Dom_exp_sc_domcat_sum, aes(lang, TOTAL_DURATION, fill = taboo_status)) +
-  geom_violin(na.rm = TRUE, alpha=1/2, aes(fill = taboo_status), draw_quantiles = c(0.25, 0.5, 0.75)) +
-  facet_wrap(~dom_cat) + stat_summary(fun.y=mean, geom="point", shape=23, size=2)
+  geom_violin(na.rm = TRUE, alpha=3/4, aes(fill = taboo_status), draw_quantiles = c(0.25, 0.5, 0.75)) +
+  facet_wrap(~dom_cat) + stat_summary(fun.y=mean, geom="point", shape=23, size=3) + scale_fill_manual(values=c("#33C4FF", "#581845"))
 
 
 Aleks_CST_bil_allLang_n12_GRM_Dom_exp_sc_domcat_sum <- merge(Aleks_CST_bil_allLang_n12_GRM_Dom_exp_sc_domcat_sum, Part_overview_CST_n12)

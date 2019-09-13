@@ -123,4 +123,44 @@ $[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git r[0K[?25he[0Km
 [0K[?25h[?25l
 [0;32mAdmonen@DESKTOP-EE6RDLN [0;35m [0;33m~/Documents/Epic study with amazing statisticall[0Ky
  significant results/CST_Stats_analysis[0;36m (master)[0m[0K
+$[0K[3G[?25h[0m[0K]0;:/c/Users/Admonen/Documents/Epic study with amazing statistically significant results/CST_Stats_analysis[?25l
+[0;32mAdmonen@DESKTOP-EE6RDLN [0;35m [0;33m~/Documents/Epic study with amazing statisti[0Kc
+ally significant results/CST_Stats_analysis[0;36m (master)[0m[0K
+[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25h[?25lu[0K[8G[?25h[9G[?25l$ git pus[0K[?25hh[0K[12G[?25l$ git push -[0K[?25h-[0Ks[0Ke[0Kt[0K-[0Ku[0Kp[0Ks[0Kt[0Kr[0Ke[0Ka[0Km[0K[27G[?25l$ git push --set-upstream o[0K[?25hr[0Ki[0Kg[0K[?25li[0K[31G[?25h[32G[?25l$ git push --set-upstream origin[0K[?25h[34G[?25l$ git push --set-upstream origin m[0K[?25ha[0Ks[0Kt[0Ke[0Kr[0K[?25l
+[0K[?25hTo https://github.com/atomic-research/CS_and_taboo[0K[?25l
+ [0;31m! [rejected]       [0m master -> master (non-fast-forward)[0K
+[0;31merror: failed to push some refs to 'https://github.com/atomic-researc[0Kh
+/CS_and_taboo'[0m[0K
+[0K[?25h[0;33mhint: Updates were rejected because the tip of your current branch is[0K[?25l
+behind[0m[0K
+[0;33mhint: its remote counterpart. Integrate the remote changes (e.g.[0m[0K
+[0;33mhint: 'git pull ...') before pushing again.[0m[0K
+[0;33mhint: See the 'Note about fast-forwards' in 'git push --help' for det[0Ka
+ils.[0m[0K
+[0K[?25h[?25l
+[0;32mAdmonen@DESKTOP-EE6RDLN [0;35m [0;33m~/Documents/Epic study with amazing statisti[0Kc
+ally significant results/CST_Stats_analysis[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Kl[0Kl[0K[12G[?25l$ git pull o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K[19G[?25l$ git pull origin m[0K[?25ha[0Ks[0Kt[0Ke[0Kr[0K[?25l
+[0K[?25hFrom https://github.com/atomic-research/CS_and_taboo[0K[?25l
+ * branch            master     -> FETCH_HEAD[0K
+ * [new branch]      master     -> origin/master[0K
+[0K[?25hfatal: refusing to merge unrelated histories[0K[?25l
+[0K[?25h[?25l
+[0;32mAdmonen@DESKTOP-EE6RDLN [0;35m [0;33m~/Documents/Epic study with amazing statisti[0Kc
+ally significant results/CST_Stats_analysis[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ i[0K[?25ht[0K[?25l$ i[0K[?25h[?25l$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git o[0K[?25h[?25l$ git[0K[7G[?25h[?25l$ git p[0K[?25hu[0Kl[0Kl[0K[?25l
+[0K[?25hThere is no tracking information for the current branch.[0K[?25l
+Please specify which branch you want to merge with.[0K
+See git-pull(1) for details.[0K
+[0K
+    git pull <remote> <branch>[0K
+[0K
+If you wish to set tracking information for this branch you can do so[0K
+with:[0K
+[0K
+    git branch --set-upstream-to=<remote>/<branch> master[0K
+[0K
+[0K[?25h[?25l
+[0;32mAdmonen@DESKTOP-EE6RDLN [0;35m [0;33m~/Documents/Epic study with amazing statisti[0Kc
+ally significant results/CST_Stats_analysis[0;36m (master)[0m[0K
 $[0K[3G[?25h
