@@ -430,4 +430,60 @@ ils.[0m[0K
 [0K[?25h[?25l
 [0;32mAdmonen@DESKTOP-EE6RDLN [0;35m [0;33m~/Documents/Epic study with amazing statisti[0Kc
 ally significant results/CST_Stats_analysis[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Kl[0Kl[0K[?25l
+[0K[?25hThere is no tracking information for the current branch.[0K[?25l
+Please specify which branch you want to merge with.[0K
+See git-pull(1) for details.[0K
+[0K
+    git pull <remote> <branch>[0K
+[0K
+If you wish to set tracking information for this branch you can do so[0K
+with:[0K
+[0K
+    git branch --set-upstream-to=<remote>/<branch> master[0K
+[0K
+[0K[?25h[?25l
+[0;32mAdmonen@DESKTOP-EE6RDLN [0;35m [0;33m~/Documents/Epic study with amazing statisti[0Kc
+ally significant results/CST_Stats_analysis[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git b[0K[?25hr[0Ka[0Kn[0Kc[0Kh[0K[14G[?25l$ git branch -[0K[?25h-[0Ks[0Ke[0Kt[0K-[0Ku[0Kp[0Ks[0Kt[0Kr[0Ke[0Ka[0Km[0K-[0Kt[0Ko[0K-[0K[?25l$ git branch --set-upstream-to[0K[?25h=[0Ko[0Kr[0Ki[0Ki[0K[?25l$ git branch --set-upstream-to=ori[0K[?25hg[0Ki[0Kn[0K/[0Km[0Ka[0Ks[0Kt[0Ke[0Kr[0K[46G[?25l$ git branch --set-upstream-to=origin/master m[0K[?25ha[0Ks[0Kt[0Ke[0Kr[0K[?25l
+[0K[?25hBranch 'master' set up to track remote branch 'master' from 'origin'.[0K[?25l
+[0K[?25h[?25l
+[0;32mAdmonen@DESKTOP-EE6RDLN [0;35m [0;33m~/Documents/Epic study with amazing statisti[0Kc
+ally significant results/CST_Stats_analysis[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Kl[0Kl[0K[?25l
+[0K[?25hfatal: refusing to merge unrelated histories[0K[?25l
+[0K[?25h[?25l
+[0;32mAdmonen@DESKTOP-EE6RDLN [0;35m [0;33m~/Documents/Epic study with amazing statisti[0Kc
+ally significant results/CST_Stats_analysis[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Kl[0Kl[0K[12G[?25l$ git pull -[0K[?25h-[0Ka[0Kl[0Kl[0Ko[0Kw[0K-[0Ku[0Kn[0Kr[0Ke[0Kl[0Ka[0Kt[0Ke[0Kd[0K-[0Kh[0Ki[0Ks[0Kt[0Ko[0Kr[0Ki[0Ke[0Ks[0K[?25l
+[0K[?25hMerge made by the 'recursive' strategy.[0K[?25l
+[0K[?25h LICENSE | 674 [0;32m++++++++++++++++++++++++++++++++++++++++++++++++++++++[0K+[?25l
++++++++++[0m[0K
+ 1 file changed, 674 insertions(+)[0K
+ create mode 100644 LICENSE[0K
+[0K[?25h[?25l
+[0;32mAdmonen@DESKTOP-EE6RDLN [0;35m [0;33m~/Documents/Epic study with amazing statisti[0Kc
+ally significant results/CST_Stats_analysis[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git m[0K[?25he[0Kr[0Kg[0Ke[0K[13G[?25l$ git merge o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K/[0Km[0Ka[0Ks[0Kt[0Ke[0Kr[0K[27G[?25l$ git merge origin/master m[0K[?25ha[0Ks[0Kt[0Ke[0Kr[0K[?25l
+[0K[?25hAlready up to date.[0K[?25l
+[0K[?25h[?25l
+[0;32mAdmonen@DESKTOP-EE6RDLN [0;35m [0;33m~/Documents/Epic study with amazing statisti[0Kc
+ally significant results/CST_Stats_analysis[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Ks[0Kh[0K[?25l
+[0K[?25hEnumerating objects: 78, done.[0K[?25l
+Counting objects:  41% (32/78)[0K[1G[?25hCounting objects: 100% (78/78), done.[0K[?25l
+Delta compression using up to 4 threads[0K
+Compressing objects:  10% (7/70)[0K[1G[?25h[?25lCompressing objects:  72% (51/70)[0K[1G[?25h[?25lCompressing objects:  74% (52/70)[0K[1G[?25h[?25lCompressing objects:  75% (53/70)[0K[1G[?25h[?25lCompressing objects:  77% (54/70)[0K[1G[?25h[?25lCompressing objects:  82% (58/70)[0K[1G[?25h[?25lCompressing objects:  87% (61/70)[0K[1G[?25hCompressing objects: 100% (70/70), done.[0K[?25l
+Writing objects:  14% (11/77)[0K[1G[?25h[?25lWriting objects:  32% (25/77)[0K[1G[?25h[?25lWriting objects:  35% (27/77)[0K[1G[?25h[?25lWriting objects:  36% (28/77)[0K[1G[?25h[?25lWriting objects:  45% (35/77)[0K[1G[?25h[?25lWriting objects:  45% (35/77), 984.00 KiB | 354.00 KiB/s[0K[1G[?25h[?25lWriting objects:  46% (36/77), 984.00 KiB | 354.00 KiB/s[0K[1G[?25h[?25lWriting objects:  74% (57/77), 984.00 KiB | 354.00 KiB/s[0K[18G[?25h[?25lWriting objects:  97% (75/77), 984.00 KiB | 354.00 KiB/s[0K[1G[?25hWriting objects: 100% (77/77), 1.09 MiB | 334.00 KiB/s, done.[0K[?25l
+Total 77 (delta 20), reused 0 (delta 0)[0K
+[0K[?25hremote: Resolving deltas: 100% (20/20), done.[0K[?25l
+[0K[?25hTo https://github.com/atomic-research/CS_taboo.git[0K[?25l
+   af80abb..1ac73c1  master -> master[0K
+[0K[?25h[?25l
+[0;32mAdmonen@DESKTOP-EE6RDLN [0;35m [0;33m~/Documents/Epic study with amazing statisti[0Kc
+ally significant results/CST_Stats_analysis[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l
+[0K[?25h[?25l
+[0;32mAdmonen@DESKTOP-EE6RDLN [0;35m [0;33m~/Documents/Epic study with amazing statisti[0Kc
+ally significant results/CST_Stats_analysis[0;36m (master)[0m[0K
 $[0K[3G[?25h
